@@ -1,0 +1,62 @@
+h1{
+	color: black;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+h2{
+	color: black;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+#home{
+	color: black;	
+	text-align: center;
+	background-image: url("images/table.jpeg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+#titles{
+	padding-top: 37vh;
+	text-shadow: 1px 1px 3px white;
+}
+h3{
+	color: #B30753;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+}
+#part2{
+	color: black;
+	text-align: center;
+	background-color: white;
+	height: 100vh;
+}
+#bubbles{
+	padding-top: 10vh;
+
+}
+.rounded-image{
+	margin: 10px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px white;
+	border: 3px solid black;
+	padding: 10px;
+
+}
+p{
+	color: black;
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+
+}
+#part3{
+	color: black;
+	text-align: center;
+	background-color: white;
+	height: 100vh;
+}
+.my-button{
+	width: 300px;
+}
