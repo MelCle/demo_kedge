@@ -31,7 +31,6 @@ h3{
 	text-align: center;
 	text-shadow: 1px 1px 3px white;
 	background-color: white;
-	height: 100vh;
 	background-image: url("images/imagepartie2.jpeg");
 	background-size: cover;
 	background-position: center;
@@ -61,15 +60,20 @@ p{
 	color: black;
 	text-align: center;
 	background-color: white;
-	height: 100vh;
 	padding-top: 50px;
 	background-image: url("images/imagepartie3.jpeg");
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
 }
+
+.card{
+	margin-bottom: 50px;
+	width: 18rem;
+}
+
 .my-button{
 	width: 300px;
+	margin-bottom: 30px;
 }
 #phrase{
 	padding-top: 70px;
@@ -86,9 +90,31 @@ p{
 	padding: 0;
 }
 #part3{
-	padding-left: 120px;
 }
 .card-img-top{
 	height: 200px;
 	object-fit: cover;
 }
+
+
+
+
+/* Si Petit écran */
+
+@media (max-width: 768px) {
+
+	#titles{
+		padding-top: 20vh;
+		padding-left: 10vh;
+		font-size: 20px;
+	}
+
+	.card{
+		margin-bottom: 50px;
+		width: auto;
+	}
+
+}
+
+
+
