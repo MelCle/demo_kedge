@@ -34,6 +34,7 @@ h3{
 	background-image: url("images/imagepartie2.jpeg");
 	background-size: cover;
 	background-position: center;
+	height: 100vh;
 }
 #bubbles{
 	padding-top: 10vh;
@@ -64,6 +65,7 @@ p{
 	background-image: url("images/imagepartie3.jpeg");
 	background-size: cover;
 	background-position: center;
+	height: 100vh;
 }
 
 .card{
@@ -106,14 +108,27 @@ p{
 	#titles{
 		padding-top: 20vh;
 		padding-left: 10vh;
-		font-size: 20px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
 	}
 
 	.card{
 		margin-bottom: 50px;
 		width: auto;
 	}
-
+	#part2{
+		height: auto;
+	}
+	#part3{
+		height: auto;
+	}
+	#home{
+		height: auto;
+	}
 }
 
 
