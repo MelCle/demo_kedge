@@ -76,6 +76,7 @@ p{
 .my-button{
 	width: 300px;
 	margin-bottom: 30px;
+	margin-top: -40px;
 }
 #phrase{
 	padding-top: 70px;
